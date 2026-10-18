@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Lokai Charms Sigil</title>
+  <desc id="desc">An ancient wisdom sigil with seven charms around an ocean current core.</desc>
+  <defs>
+    <linearGradient id="ring" x1="32" y1="32" x2="224" y2="224" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#67e8f9" />
+      <stop offset="0.35" stop-color="#a78bfa" />
+      <stop offset="0.7" stop-color="#c4b5fd" />
+      <stop offset="1" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="node" x1="64" y1="48" x2="200" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0f2fe" />
+      <stop offset="0.45" stop-color="#c4b5fd" />
+      <stop offset="1" stop-color="#6ee7b7" />
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#ecfeff" />
+      <stop offset="0.5" stop-color="#bfdbfe" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </radialGradient>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="128" cy="128" r="102" stroke="url(#ring)" stroke-width="6" opacity="0.95" />
+    <circle cx="128" cy="128" r="86" stroke="#cbd5e1" stroke-width="1.4" opacity="0.35" />
+
+    <polygon
+      points="128,42 195,74 212,147 165,206 91,206 44,147 61,74"
+      stroke="url(#ring)"
+      stroke-width="2"
+      opacity="0.7"
+    />
+    <polyline
+      points="128,42 212,147 91,206 61,74 165,206 44,147 195,74 128,42"
+      stroke="#a5b4fc"
+      stroke-width="1.6"
+      opacity="0.55"
+    />
+
+    <circle cx="128" cy="128" r="42" stroke="#cbd5e1" stroke-width="2" opacity="0.55" />
+    <circle cx="128" cy="128" r="28" fill="url(#core)" fill-opacity="0.18" stroke="#bfdbfe" stroke-width="1.2" opacity="0.9" />
+
+    <path d="M78 139 C92 118 111 118 124 139 C137 160 156 160 178 137" stroke="#67e8f9" stroke-width="4.2" opacity="0.95" />
+    <path d="M84 155 C98 138 116 138 128 155 C139 170 154 170 172 152" stroke="#a78bfa" stroke-width="3" opacity="0.9" />
+    <path d="M104 102 C114 95 124 95 132 103 C141 111 152 111 162 102" stroke="#6ee7b7" stroke-width="2.4" opacity="0.9" />
+
+    <path d="M128 60 L132 72 L144 76 L132 80 L128 92 L124 80 L112 76 L124 72 Z" fill="#fef08a" fill-opacity="0.85" stroke="#fde68a" stroke-width="1" opacity="0.95" />
+  </g>
+
+  <g fill="url(#node)" stroke="#e2e8f0" stroke-width="1.2">
+    <circle cx="128" cy="42" r="8" />
+    <circle cx="195" cy="74" r="8" />
+    <circle cx="212" cy="147" r="8" />
+    <circle cx="165" cy="206" r="8" />
+    <circle cx="91" cy="206" r="8" />
+    <circle cx="44" cy="147" r="8" />
+    <circle cx="61" cy="74" r="8" />
+  </g>
+
+  <circle cx="128" cy="128" r="4" fill="#ecfeff" opacity="0.95" />
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "Lokai Sovereign",
+  "short_name": "Lokai",
+  "description": "Local-first composable intelligence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#11130f",
+  "theme_color": "#11130f",
+  "icons": [
+    {
+      "src": "assets/lokai-charms-sigil.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
