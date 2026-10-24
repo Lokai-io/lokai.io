@@ -517,6 +517,71 @@ h3 {
   background: var(--gold);
 }
 
+.measured-proof {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.9fr);
+  gap: 28px 54px;
+  margin-top: 56px;
+  padding: 34px;
+  color: #f5f1e7;
+  background:
+    linear-gradient(125deg, rgba(214, 165, 67, 0.12), transparent 42%),
+    var(--forest);
+  border-radius: 2px;
+  box-shadow: 0 20px 50px rgba(24, 54, 41, 0.16);
+}
+
+.measured-proof .proof-status {
+  color: var(--gold);
+}
+
+.measured-proof h3 {
+  margin: 10px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.measured-proof > div > p:last-child {
+  margin: 18px 0 0;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.measured-proof-metrics {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+}
+
+.measured-proof-metrics div {
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.measured-proof-metrics dt {
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.measured-proof-metrics dd {
+  margin: 5px 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+}
+
+.measured-proof-boundary {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 13px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
 .proof-footnote {
   margin: 52px 0 0;
   padding-top: 18px;
@@ -1001,7 +1066,8 @@ h3 {
   .proof-columns,
   .access-grid,
   .no-hidden-product,
-  .service-intake {
+  .service-intake,
+  .measured-proof {
     grid-template-columns: 1fr;
   }
 
