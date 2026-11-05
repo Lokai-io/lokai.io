@@ -44,6 +44,7 @@
         <a href="#useful">What it does</a>
         <a href="#how">How it works</a>
         <a href="#proof">Proof</a>
+        <a href="#build">Build</a>
         <a href="#services">Services</a>
         <a href="#access">Access</a>
         <a href="#faq">FAQ</a>
@@ -245,6 +246,60 @@
         </div>
       </section>
 
+      <section id="build" class="section extension-section" aria-labelledby="build-title">
+        <div class="page-width">
+          <div class="section-heading section-heading-wide">
+            <p class="section-label">An extensible foundation</p>
+            <h2 id="build-title">Use the system. Extend the parts your deployment needs.</h2>
+            <p>
+              Lokai is not designed around one frozen model or one vendor's hardware. Public interfaces, typed
+              contracts, modular runtime components, and evidence gates let developers and local agents add support
+              without receiving protected routing internals or bypassing verification.
+            </p>
+          </div>
+          <div class="extension-grid">
+            <article class="extension-card">
+              <p class="extension-index">01 / Runtime</p>
+              <h3>Add hardware and backend support.</h3>
+              <p>
+                Build against stable ABI and SDK boundaries, qualify the real device path, and publish exact support
+                receipts. Runtime selection remains hardware-aware rather than forcing one configuration everywhere.
+              </p>
+            </article>
+            <article class="extension-card">
+              <p class="extension-index">02 / Models</p>
+              <h3>Add models, quants, and MLF packs.</h3>
+              <p>
+                Index model tensors into the MLF container, declare architecture and quantization contracts, test
+                correctness, then optimize the modular lane. Mixed-precision and custom-quant experiments stay bound
+                to the model and workload evidence that qualified them.
+              </p>
+            </article>
+            <article class="extension-card">
+              <p class="extension-index">03 / Learning</p>
+              <h3>Adapt from real, opted-in work.</h3>
+              <p>
+                Turn reviewed workflow traces and local corpora into bounded distillation, adapter, grounding, and
+                precision experiments. Candidates remain inspectable and reversible until held-out evaluation earns
+                promotion.
+              </p>
+            </article>
+            <article class="extension-card">
+              <p class="extension-index">04 / Community</p>
+              <h3>Share one capability, not your deployment.</h3>
+              <p>
+                Opt in at the artifact level: a skill, plugin, adapter, model contract, backend, or optimization can
+                enter verification without exposing unrelated files, private memory, or deployment secrets.
+              </p>
+            </article>
+          </div>
+          <p class="extension-boundary">
+            Extension surfaces are real; support remains qualified per artifact, model, quant, backend, operating
+            system, device, and workload. A submitted candidate is not automatically trusted or promoted.
+          </p>
+        </div>
+      </section>
+
       <section id="services" class="section services-section" aria-labelledby="services-title">
         <div class="page-width">
           <div class="section-heading section-heading-wide">
@@ -378,6 +433,10 @@
             <details>
               <summary>Can I keep using an agent harness I already know?</summary>
               <p>That is the intended architecture. Lokai is being built to sit beneath compatible harnesses as the governance, memory, runtime, and auditability layer rather than forcing one interface on every user.</p>
+            </details>
+            <details>
+              <summary>Can developers add hardware, models, or optimizations?</summary>
+              <p>Yes. Lokai's modular runtime, stable extension boundaries, MLF model-pack workflow, plugins, and opt-in contribution path are designed for that work. Every addition still has to prove its exact compatibility and behavior; extension does not bypass qualification or expose protected ASR routing internals.</p>
             </details>
           </div>
         </div>
